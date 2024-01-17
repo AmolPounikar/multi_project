@@ -4,6 +4,9 @@ const Home = () => {
         <>
             <section className="hero">
                 <h1>Welcome to Multi project App</h1>
+                <p>
+                    <h2>Created by Amol Pounikar</h2>
+                </p>
             </section>
         </>
     )

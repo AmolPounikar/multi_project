@@ -5,7 +5,7 @@ import Toolbar from "@mui/material/Toolbar";
 import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
 import Sidebar from "../sidebar/Sidebar";
-import "./NavigationBar.scss";
+import "./Navbar.scss";
 
 
 const Navbar: React.FC = () => (
@@ -34,19 +34,7 @@ const Navbar: React.FC = () => (
                 >
                     ***__ Welcome to Multi Project App __***
                 </Typography>
-                {/* <Typography
-                    variant="h6"
-                    component="div"
-                    sx={{
-                        flexGrow: 0.1,
-                        display: "flex",
-                        justifyContent: "end",
-                        fontWeight: "bold",
-                        color: 'black'
-                    }}
-                >
-                    Created By Amol Pounikar
-                </Typography> */}
+
             </Toolbar>
         </AppBar>
     </Box>
